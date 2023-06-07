@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Pacifico&family=Shadows+Into+Light&display=swap');
+
+@font-face {
+    font-family: Idroid;
+    src: url(IDroid.otf) format('opentype');
+}
+
+main{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    padding: 10px;
+    margin: auto;
+}
+
+body{
+    background: #EBE5C5;
+}
+
+header{
+    background: linear-gradient(to bottom,#29b669, #239c59, #186B3D);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+#principal{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: light;
+}
+
+nav > a{
+    color: white;
+    font-weight: bold;
+    margin: 100px;
+    text-shadow: 2px 2px 2px black;
+}
+
+footer{
+    background-color: #186B3D;
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.plus{
+    background-color: #1aca69;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.plus1{
+    background-color: #186B3D;
+    color: white;
+    padding-top: 0px;
+    border-radius: 10px;
+    width: auto;
+}
+
+.subtítulo{
+    font-family: Idroid;
+    background: linear-gradient(to right, #000703f1, #05833ef1, #29b669 );
+    color: rgb(11, 228, 40);
+}
+
+strong{
+    color: #0ee970;
+}
+
+a:hover{
+    color: #1aca69;
+}
